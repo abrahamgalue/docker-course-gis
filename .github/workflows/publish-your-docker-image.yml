@@ -30,7 +30,7 @@ jobs:
     uses: 0GiS0/scan-docker-vulnerabilities/.github/workflows/trivy.yaml@main
     with:
       image_name: tour-of-heroes-angular
-      dockerfile_path: tour-of-heroes-angular/Dockerfile.gh-copilot
+      dockerfile_path: 04-share-docker-images/tour-of-heroes-angular/Dockerfile.gh-copilot
       context: 04-share-docker-images/tour-of-heroes-angular
 
   build-and-push-image:
